@@ -1,0 +1,177 @@
+.sctBanner{
+    height: 730px;
+}
+.sctBanner .container{
+    display: flex;
+    justify-content: space-between;
+}
+.sctBanner-left{
+   padding-top: 50px;
+}
+.sctBanner h2{
+    width: 618px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: #1D3444;
+}
+.sctBanner p{
+    width: 510px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+.sctBanner-Img::before{
+    position: absolute;
+    content: url(../images/Orange\ ser.png);
+    mix-blend-mode: multiply;
+}
+.sctBanner-Img{
+    position: relative;
+}
+.sctBanner-Img::after{
+    position: absolute;
+    content: url(../images/ser.circle.png);
+    top: 80px;
+    right: -57px;
+}
+.sctBanner button{
+    color: #FFFFFF;
+    background: #f58a07;
+    padding: 10px 30px 10px 30px;
+    border-radius: 31px;
+    border: solid 0 #f58a07;
+}
+/*SECTION FEATURES START */
+.sectionFeatures .container{
+    display: flex;
+    justify-content: space-between;
+}
+.sctFeatures2 .container{
+    display: flex;
+    justify-content: space-around;
+}
+.features-H2P h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+}
+.features-left{
+    width: 50%;
+}
+.features-H2P{
+    padding-top: 70px;
+}
+.features-H2P p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #5B5B5B;
+}
+.features-H2P ul{
+    font-weight: 500;
+    line-height: 40px;
+    color: #5B5B5B;
+}
+.features-left{
+    position: relative;
+}
+.features-left::before{
+    position: absolute;
+    content: url(../ser.img/serv.oran.png);
+    mix-blend-mode: multiply;
+    top: 120px;
+    left: -40px;
+}
+/*SECTION FEATURES2 START*/
+.sctFeatures2{
+    height: 770px;
+}
+.sctFeatures2 .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+.sctFeatures2-right{
+    position: relative;
+}
+.features2-right::after{
+    position: absolute;
+    content: url(../ser.img/serv.oran.png);
+    top: 1730px;
+    left: 1583px; 
+    mix-blend-mode: multiply;
+}
+/*SECTION FEATURES 3 START*/
+.sctFeatures3 .container{
+   height: 670px;
+   display: flex;
+    justify-content: space-between;
+}
+.features3-left{
+    position: relative;
+    width: 50%;
+}
+.features3-left::before{
+    position: absolute;
+    content: url(../ser.img/serv.oran.png);
+    mix-blend-mode: multiply;
+    top: 220px;
+    left: -45px;
+}
+/*SECTION FEATURES 4 START*/
+.sctFeatures4{
+    height: 670px;
+}
+.sctFeatures4 .container{
+    display: flex;
+    justify-content: space-between;
+}
+.features-H2P{
+    width: 50%;
+}
+.features4-right{
+    position: relative;
+}
+.features4-right::after{
+    position: absolute;
+    content: url(../ser.img/serv.oran.png);
+    mix-blend-mode: multiply;
+    right: -90px;
+    top: 240px;
+}
+.features4-right{
+    width: 45%;
+}
+/*SECTION FEATURES 5 START*/
+.sctFeatures5 .container{
+    display: flex;
+    justify-content: space-between;
+}
+.features5-right{
+    position: relative;
+}
+.features5-right::before{
+    position: absolute;
+    content: url(../ser.img/serv.oran.png);
+    mix-blend-mode: multiply;
+    top: 320px;
+    left: -48px;
+}
+.features-H2P{
+    width: 45%;
+}
+#sctHelp-P{
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
+}
+#sctHelp-P::after{
+    position: absolute;
+    left: 115px;
+    content: "\2192";
+    color: #F58A07;
+}

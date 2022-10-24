@@ -1,0 +1,107 @@
+.contactSection{
+    height: 950px;
+    padding-top: 30px;
+}
+.contactTop{
+    display: flex;
+    justify-content: space-between;
+}
+.contactLeft{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.contactLeft h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #1D3444; 
+}
+.contactLeft p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+.contactMiddle{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+}
+.contactMiddle p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+.contactMiddle h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0D1317;
+}
+.contactRight{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.contactRight h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0D1317;
+}
+.contactRight p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+.contactBottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.contactInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contactInput{
+    width: 47%;
+    height: 456px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #9C9C9C;
+}
+.contactInput .input{
+    height: 54px;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    border: none;
+    padding-left: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.contactInput .bigInput{
+    height: 160px;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    border: none;
+    padding: 0 0 100px 30px;
+    font-family: 'Inter', sans-serif;
+}
+.contactInput button{
+    width: 20%;
+    font-weight: 600;
+    line-height: 106.5%;
+    color: #FFFFFF;
+    background: #F58A07;
+    padding: 17px 27px 17px 27px;
+    border: none;
+    border-radius: 27px;
+    font-family: 'Inter', sans-serif;
+}
+.contactLocation-Img iframe{
+    border-radius: 30px;
+}

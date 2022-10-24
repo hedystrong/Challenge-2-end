@@ -1,0 +1,37 @@
+.header{
+    height: 84px;
+}
+.header .container{
+    height: 52px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    width: 45%;
+    text-align: start;
+}
+.menu{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    width: 500px;
+    height: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+header a{
+   color:#394149;
+}
+.button1{
+    padding: 20px;
+    font-weight: 600;
+    border-radius: 31px;
+    background: rgba(245, 138, 7, 0.1);
+    color: #F58A07;
+    border: solid 0 rgba(245, 138, 7, 0.1);
+}

@@ -1,0 +1,125 @@
+.careerHeader{
+    height: 830px;
+}
+.careerTop{
+    display: flex;
+    justify-content: space-between;
+}
+.careerTop1{
+    display: flex;
+    justify-content: space-between;
+}
+.careerMiddle{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1280px;
+    height: 441px;
+    background: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+}
+.careerHeader h2{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: #1D3444;
+}
+.careerTop h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0D1317;
+}
+#salary{
+    width: 20%;
+}
+#engineerSalary{
+    width: 20%;
+}
+.careerTop1 p{
+    width: 51%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+.careerDetails{
+    margin-bottom: 98px;
+    display: flex;
+    flex-direction: column;
+}
+.careerDetails h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0D1317;
+}
+#h2color{
+    color: #F58A07;
+}
+.careerDetails1{
+    width: 65%;
+    height: 308px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #5B5B5B;
+}
+
+/*APPLY SECTION */
+.applySection{
+    height: 692px;
+}
+.applySection h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+}
+.applySection-input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1280px;
+    height: 132px;
+}
+.applyInput{
+    width: 628px;
+    height: 54px;
+    border: none;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    font-family: 'Inter', sans-serif;
+    padding-left: 30px;
+}
+.applyInput text{
+    font-weight: 500;
+    line-height: 19px;
+    color: #9C9C9C;
+}
+.italic-Input{
+    font-style: italic;
+}
+.applyInputBig{
+    width: 1280px;
+    height: 215px;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    border: none;
+    padding: 0 0 150px 30px;
+}
+.applyInputBig text{
+    font-weight: 500;
+    line-height: 19px;
+    color: #9C9C9C;
+    font-family: 'Inter', sans-serif;
+}
+.applySection button{
+    border: none;
+    color: #Ffffff;
+    background: #F58A07;
+    padding: 17px 27px 17px 27px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 27px;
+    margin-top: 30px;
+}

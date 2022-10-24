@@ -1,0 +1,322 @@
+/*BANNER START*/
+.banner{
+    height: 703px;
+    background: #DCEAF5;
+}
+.banner .container{
+    height: 703px;
+    display: flex;
+    justify-content: space-between;
+}
+.bannerText{
+    width: 50%;
+}
+.bannerText h2{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: #1D3444;
+}
+.bannerText p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+.bannerButton{
+    display: flex;
+    align-items: center;
+}
+.our{
+    width: 38%;
+    display: flex;
+    align-items: center;
+    border: none;
+    font-weight: 600;
+    background: #F58A07;
+    border-radius: 31px;
+    padding: 1px 30px 1px 30px;
+}
+#our{
+    color: #FFFFFF;
+}
+.all{
+    color: #1D3444;
+    line-height: 106.5%;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.text{
+    color:#39414980;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+.icon1{
+    display: flex;
+    align-items: center;
+}
+.bannerImg img{
+    width: 117.5%;
+    display: flex;
+}
+/*SECTION HELP START*/
+.sectionHelp{
+    height: 933px;
+    padding-top: 50px;
+}
+.sctHelp-title{
+    width: 57%;
+}
+.sctHelp{
+    display: flex;
+    justify-content: space-between;
+}
+.sectionHelp h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #1D3444;
+}
+.sectionHelp p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}.card img{
+    border-radius: 20px;
+    width: 400px;
+    height: 241px;
+}
+.card h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 106.5%;
+    color: #0D1317;
+}
+.card p{
+    width: 399px;
+    height: 84px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+#sctHelp-P{
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
+}
+#sctHelp-P::after{
+    position: absolute;
+    left: 115px;
+    content: "\2192";
+    color: #F58A07;
+}
+/*SECTION FEATURES START*/
+.sctFeaures{
+    height: 665px;
+    background: #EDF7FF;
+}
+.sctFeaures h2{
+    width: 48%;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #0D1317;
+}
+.sctFeaures-top p{
+    width: 48%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1D3444;
+}
+.sctFeaures-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 0 50px 0;
+}
+.sctFeaures-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card1{
+    width: 401px;
+    height: 277px;
+    background: #FFFFFF;  
+    border-radius: 20px;
+    padding: 25px;
+}
+/*uldsen cardnii heseg ni global.css deer bga*/
+/*SECTION ABOUT START*/
+.sctAbout{
+    height: 836px;
+    background: white;
+    padding: 50px 0 50px 0;
+}
+.sctAbout-left{
+    display: flex;
+    justify-content: space-between;
+}
+.leftSlide h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+}
+.leftSlide p{
+    width: 80%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.middle .text{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 106.5%;
+    color: #0D1317;
+}
+.middle p{
+    font-weight: 500;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+.middle h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #F58A07;
+    font-family: 'Inter', sans-serif;
+}
+.sctAbout-right img{
+    border-radius: 20px;
+}
+/*SECTION SERVICE START*/
+.sctService{
+    height: 800px;
+}
+.sctService .container{
+    height: 682px;
+    background: #EDF7FF;
+    border-radius: 20px;
+    padding: 50px 0 50px 0;
+}
+.service{
+    display: flex;
+}
+.service-left{
+    width: 55%;
+    padding-left: 40px;
+}
+.ser-button{
+    background: #FFFFFF;
+    color: #F58A07;
+    border: solid 0 #F58A07;
+    border: solid 0 #FFFFFF;
+    border-radius: 31px;
+    padding: 10px 17px 10px 17px;
+}
+.buttonSame{
+    padding: 10px 17px 10px 17px;
+    color: rgba(6, 50, 85, 0.3);
+    font-weight: 600;
+    line-height: 24px;
+    border: solid 1px #A8BCCC;
+    border-radius: 31px;
+    margin-left: 35px;
+}
+.service-left h2{
+    padding-top: 30px;
+    width: 85%;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+}
+.service-left p{
+    width: 510px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+#sctService-P{
+    font-weight: 500;
+    line-height: 106.5%;
+    color: #F58A07;
+    position: relative;
+}
+#sctService-P::after{
+    position: absolute;
+    content: "\2192";
+    left: 160px;
+    color: #F58A07;
+}
+.service-right img{
+    border-radius: 20px;
+    padding: 120px 0 0 50px;
+}
+.orange-service{
+    position: absolute;
+    height: 466px;
+    width: 120px;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px 0px 0px 20px;
+    left: 50px;
+    top: 120px;
+}
+.service-right{
+    width: 45%;
+    position: relative;
+}
+.service-right::after{
+    position: absolute;
+    content: url(../images/Ribbon.png);
+    left: 412px;
+    top: -66px;
+}
+/*SECTION CTA START*/
+.ctaSection{
+    height: 518px;
+    display: flex;
+}
+.ctaSection-right{
+    background: #F58A07;
+    padding: 70px 50px 200px 90px;
+    width: 55%;
+}
+.ctaSection-right h3{
+    width: 70%;
+    height: 168px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.ctaSection-right button{
+    padding: 13px 17px 13px 17px;
+    background: #FFFFFF;
+    border-radius: 31px;
+    font-weight: 600;
+    line-height: 106.5%;
+    color: #F58A07;
+    border: solid 0 #FFFFFF;
+}
+
+
+
+

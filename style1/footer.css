@@ -2,6 +2,7 @@
     height: 463px;
     background: #063255;
     color: #FFFFFF;
+    position: relative;
 }
 .endFooter{
     display: flex;
@@ -56,25 +57,6 @@
 }
 .endFooter1{
     padding-top: 50px;
-    position: relative;
-}
-.endFooter1 .rightSlade{
-    position: absolute;
-    width: 53px;
-    height: 287px;
-    background: #F58A07;
-    border-radius: 20px 0px 0px 20px;
-    right: -365px;
-    bottom: 99px;
-}
-.endFooter1 .leftSlade{
-    position: absolute;
-    width: 53px;
-    height: 144px;
-    background: #F58A07;
-    border-radius: 0 20px 20px 0;
-    right: 1592px;
-    bottom: -42px;
 }
  footer input {
     background-color: #FFFFFF ;
@@ -86,4 +68,22 @@
     width: 342px;
     height: 54px;
     padding-left: 30px;
+}
+.end .leftSlade{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 53px;
+    height: 144px;
+    background: #F58A07;
+    border-radius: 0 20px 0 0;
+}
+.end .rightSlade{
+    position: absolute;
+    width: 53px;
+    height: 287px;
+    background: #F58A07;
+    border-radius: 20px 0px 0px 20px;
+    right: 0;
+    top: 10%;
 }

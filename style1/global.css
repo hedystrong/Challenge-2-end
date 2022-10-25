@@ -8,8 +8,12 @@
     margin: auto;
     width: 100%;
 }
+body{
+    margin: 0;
+}
 * a{
     text-decoration: none;
+    color: inherit;
 }
 /*SECTION VIDEO START*/
 .sctVideo{
@@ -85,12 +89,8 @@
     border-radius: 20px 20px 20px 20px;
 }
 .latest .card2:hover{
-    background: #32536e;
-    width: 30%;
-    height: 100%;
-    opacity: 0.7;
-    transition: opacity 0.5s;
-    background: transparent;
+    color: #2c597f;
+    opacity: 0.5;
 }
 .latest .card2 img{
     height: 230px;
